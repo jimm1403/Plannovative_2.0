@@ -5,11 +5,21 @@ using System.Text;
 using System.Threading.Tasks;
 using DomainModel;
 
-namespace Business_Domain
+namespace DomainModel
 {
     public abstract class AbstractJob : IJob
     {
         private bool priceType;
+
+        public AbstractJob(string name, string description, DateTime deadline, int price, bool priceType)
+        {
+            Name = name;
+            Description = description;
+            DeadLine = deadline;
+            Price = price;
+            this.priceType = priceType;
+            WorkTimeList = new List<WorkTime>(); 
+        }
 
         public DateTime DeadLine { get; set; }
         public string Description { get; set; }

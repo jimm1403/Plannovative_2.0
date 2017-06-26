@@ -42,17 +42,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AbstractJob.cs" />
-    <Compile Include="IJob.cs" />
+    <Compile Include="DomainServices\JobFactory.cs" />
     <Compile Include="ServiceInterfaces\IBoardServices.cs" />
     <Compile Include="ServiceInterfaces\IWorkTimeServices.cs" />
     <Compile Include="ServiceInterfaces\ICustomerServices.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ServiceInterfaces\IJobServices.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="DomainServices\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <ProjectReference Include="..\DomainModel\DomainModel.csproj">
       <Project>{973182e0-f2d8-419f-aee5-6af528f33e92}</Project>
