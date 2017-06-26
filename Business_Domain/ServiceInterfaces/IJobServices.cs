@@ -10,7 +10,7 @@ namespace Business_Domain.ServiceInterfaces
     {
         List<WorkTime> ShowListOfTimes();
         string ShowPriceType(bool PriceType);
-        Job ShowJob();
+        IJob ShowJob();
 
     }
 }

@@ -9,7 +9,7 @@ namespace DomainModel
     {
         static int InvoiceId { get;}
         static Customer InvoiceCustomer { get;}  
-        static Job InvoiceJob { get; }
+        static IJob InvoiceJob { get; }
         static List<WorkTime> InvoiceWorkTimeList { get; }                
     }
 }

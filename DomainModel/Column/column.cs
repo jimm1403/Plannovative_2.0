@@ -6,7 +6,7 @@ namespace DomainModel
     {
         public string Name { get; set; }
         public int ColumnId { get; }
-        List<Job> Joblist { get; }
+        List<IJob> Joblist { get; }
 
 
     }
