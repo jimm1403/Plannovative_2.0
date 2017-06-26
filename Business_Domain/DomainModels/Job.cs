@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Business_Domain
 {
-    public class Class1
+    public class Job
     {
         //Hej jens
     }
