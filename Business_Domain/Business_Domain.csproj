@@ -42,6 +42,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AbstractJob.cs" />
+    <Compile Include="IJob.cs" />
     <Compile Include="ServiceInterfaces\IBoardServices.cs" />
     <Compile Include="ServiceInterfaces\IWorkTimeServices.cs" />
     <Compile Include="ServiceInterfaces\ICustomerServices.cs" />

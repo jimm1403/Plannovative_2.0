@@ -1,10 +1,9 @@
-﻿using Business_Domain.DomainModels;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Business_Domain
+namespace DomainModel
 {
     public class Job
     {

@@ -43,6 +43,7 @@
     <Compile Include="Board.cs" />
     <Compile Include="column.cs" />
     <Compile Include="Customer.cs" />
+    <Compile Include="HourlyJob.cs" />
     <Compile Include="Invoice.cs" />
     <Compile Include="Job.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

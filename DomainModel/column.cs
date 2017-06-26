@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Business_Domain.DomainModels
+namespace DomainModel
 {
     public class Column
     {

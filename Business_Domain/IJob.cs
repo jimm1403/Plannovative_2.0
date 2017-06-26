@@ -1,34 +1,20 @@
-﻿using System;
+﻿using DomainModel;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace Business_Domain
 {
-    class IJob
+    public interface IJob
     {
-        #region
-        public string Name { get; set; }
-        public string Description { get; set; }
-        public DateTime DeadLine { get; set; }
-        public bool PriceType { get; set; }
-        public int Price { get; set; }
-        public List<WorkTimes> WorkTimeList { get; set; }
-        #endregion
 
-        public List<WorkTimes> ShowListOfTimes()
-        {
-            return WorkTimeList;
-        }
-        public void ShowPriceType(bool PriceType) { }
-
-
-
-
-
-
-
-
-
+        string Name { get; set; }
+        string Description { get; set; }
+        DateTime DeadLine { get; set; }
+        bool PriceType { get; }
+        int Price { get; set; }
+        List<WorkTime> WorkTimeList { get; set; }
     }
 }
