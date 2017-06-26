@@ -8,10 +8,16 @@ namespace DomainModel
     public class Board
     {
         public string Name { get; set; }
-        int BoardId { get; }
-        Board BoardSettings { get; set; }
-        List<Column> ColumnList { get; }
-        List<Customer> CustomerList { get; }
+        public int BoardId { get; set; }
+        public Board BoardSettings { get; set; }
+        public List<Column> ColumnList { get; }
+        public List<Customer> CustomerList { get; }
+        public Board(string name, int boardId)
+        {
+            this.Name = name;
+            this.BoardId = boardId;
+
+        }
 
     }
 }

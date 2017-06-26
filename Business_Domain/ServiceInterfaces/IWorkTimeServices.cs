@@ -9,8 +9,8 @@ namespace Business_Domain.DomainServices
     interface IWorkTimeServices
     {
         List<WorkTime> ShowWorkTimes();
-        int CalculateTimeUsedADay(DateTime StartTime, DateTime EndTime);
-        int CalculateTimeUsedForJob(List<DateTime> StartTimeList, List<DateTime> EndTimeList);
+        int CalculateTimeUsedADay(TimeSpan StartTime, TimeSpan EndTime);
+        int CalculateTimeUsedForJob(List<TimeSpan> StartTimeList, List<TimeSpan> EndTimeList);
         float CalculatePriceforJob(bool PriceType, float TotalAmountOfWorkInHours);
     }
 }

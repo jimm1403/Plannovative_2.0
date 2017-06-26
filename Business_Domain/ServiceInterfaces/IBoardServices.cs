@@ -8,9 +8,9 @@ namespace Business_Domain.ServiceInterfaces
 {
     interface IBoardServices
     {
-        Board CreateBoard();
+        Board CreateBoard(string Name, int BoardId);
         Board Refresh();
-        Column CreateColumn();
+        List<Column> CreateColumn(int NumberOfColumns, int BoardId);
         void DeadLineChange(int BoardId);
         void ColourChange(int BoardId);
 
