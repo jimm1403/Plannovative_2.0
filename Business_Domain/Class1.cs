@@ -7,5 +7,6 @@ namespace Business_Domain
 {
     public class Class1
     {
+        //Hej jens
     }
 }
