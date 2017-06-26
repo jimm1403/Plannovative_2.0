@@ -2,7 +2,7 @@
 
 namespace Business_Domain.DomainModels
 {
-    class Column
+    public class Column
     {
         public string Name { get; set; }
         public int ColumnId { get; }

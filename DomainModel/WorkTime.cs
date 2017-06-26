@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Business_Domain.DomainModels
 {
-    class WorkTime
+    public class WorkTime
     {
         DateTime StartTime { get; set; }
         DateTime EndTime { get; set; }

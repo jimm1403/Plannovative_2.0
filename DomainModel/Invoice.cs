@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Business_Domain.DomainModels
 {
-    static class Invoice
+    public static class Invoice
     {
         static int InvoiceId { get;}
         static Customer InvoiceCustomer { get;}  

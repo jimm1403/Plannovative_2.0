@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Business_Domain.DomainModels
 {
-    class Board
+    public class Board
     {
         public string Name { get; set; }
         int BoardId { get; }
